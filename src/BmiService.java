@@ -1,7 +1,10 @@
 public class BmiService {
-public int calculate (int index, int metre, int kilogram) {
-    int result;
+    public int calculate(int metre, int kilogram) {
 
-}
-
+        int index;
+        index = (kilogram / metre);
+        {
+        }
+        return index;
+    }
 }
